@@ -8,6 +8,5 @@ export function log(message, level = "info", error = null) {
   if (error) {
     logMessage += `\n${error.stack || error}`;
   }
-  
   console.log(logMessage);
 }
