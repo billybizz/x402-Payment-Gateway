@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="favicon.ico">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- HTML Meta Tags -->
+    <title>X402 Enterprise Payment Gateway</title>
+    <meta name="description" content="Enterprise-grade micropayment infrastructure powered by X402 protocol. Secure, scalable, and lightning-fast payment processing for digital content.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://x402.billybizz.dev/">
+    <meta property="og:title" content="X402 Enterprise Payment Gateway">
+    <meta property="og:description" content="Enterprise-grade micropayment infrastructure powered by X402 protocol. Secure, scalable, and lightning-fast payment processing for digital content.">
+    <meta property="og:image" content="https://opengraph.b-cdn.net/production/images/afea1e83-0adf-4492-9692-599da59e6182.png?token=nH7qEiqQ28Fyw91we3XTwxZpqk3vbIeIl3hjVfsNpHQ&height=266&width=500&expires=33297677916">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://x402.billybizz.dev/">
+    <meta property="twitter:title" content="X402 Enterprise Payment Gateway">
+    <meta property="twitter:description" content="Enterprise-grade micropayment infrastructure powered by X402 protocol. Secure, scalable, and lightning-fast payment processing for digital content.">
+    <meta property="twitter:image" content="https://opengraph.b-cdn.net/production/images/afea1e83-0adf-4492-9692-599da59e6182.png?token=nH7qEiqQ28Fyw91we3XTwxZpqk3vbIeIl3hjVfsNpHQ&height=266&width=500&expires=33297677916">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="brand-logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <span class="logo-text">X402</span>
+                </div>
+            </div>
+            <div class="nav-menu">
+                <a href="#platform" class="nav-link">Platform</a>
+                <a href="#solutions" class="nav-link">Solutions</a>
+                <a href="#developers" class="nav-link">Developers</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="https://www.x402.org/" target="_blank" class="nav-link external">
+                    <span>Protocol</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+            <div class="nav-actions">
+                <a href="/authenticate" class="btn btn-primary">
+                    <i class="fas fa-play"></i>
+                    <span>Demo Payment</span>
+                </a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="grid-pattern"></div>
+            <div class="floating-elements">
+                <div class="element element-1"></div>
+                <div class="element element-2"></div>
+                <div class="element element-3"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-shield-check"></i>
+                    <span>Enterprise-Grade Security</span>
+                </div>
+                <h1 class="hero-title">
+                    Next-Generation
+                    <span class="highlight">Payment Infrastructure</span>
+                </h1>
+                <p class="hero-description">
+                    Built on the X402 protocol, our enterprise payment gateway delivers 
+                    instant micropayments with institutional-grade security and scalability.
+                </p>
+                <div class="hero-actions">
+                    <a href="/authenticate" class="btn btn-primary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        <span>Start Integration</span>
+                    </a>
+                    <a href="#platform" class="btn btn-secondary btn-large">
+                        <i class="fas fa-chart-line"></i>
+                        <span>View Analytics</span>
+                    </a>
+                </div>
+                <div class="hero-metrics">
+                    <div class="metric">
+                        <div class="metric-value">99.9%</div>
+                        <div class="metric-label">Uptime</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">&lt;100ms</div>
+                        <div class="metric-label">Latency</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">$0.001</div>
+                        <div class="metric-label">Min. Fee</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="dashboard-preview">
+                    <div class="dashboard-header">
+                        <div class="dashboard-title">Payment Dashboard</div>
+                        <div class="status-indicator">
+                            <div class="status-dot"></div>
+                            <span>Live</span>
+                        </div>
+                    </div>
+                    <div class="dashboard-content">
+                        <div class="payment-card">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-coins"></i>
+                                </div>
+                                <div class="card-info">
+                                    <div class="card-title">USDC Payment</div>
+                                    <div class="card-subtitle">Base Network</div>
+                                </div>
+                            </div>
+                            <div class="payment-amount">
+                                <span class="currency">$</span>
+                                <span class="amount">0.10</span>
+                            </div>
+                            <div class="payment-status">
+                                <div class="status-badge success">
+                                    <i class="fas fa-check"></i>
+                                    <span>Confirmed</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="transaction-list">
+                            <div class="transaction-item">
+                                <div class="transaction-icon">
+                                    <i class="fas fa-arrow-up"></i>
+                                </div>
+                                <div class="transaction-details">
+                                    <div class="transaction-amount">$0.10</div>
+                                    <div class="transaction-time">2s ago</div>
+                                </div>
+                                <div class="transaction-status success">✓</div>
+                            </div>
+                            <div class="transaction-item">
+                                <div class="transaction-icon">
+                                    <i class="fas fa-arrow-up"></i>
+                                </div>
+                                <div class="transaction-details">
+                                    <div class="transaction-amount">$0.25</div>
+                                    <div class="transaction-time">5s ago</div>
+                                </div>
+                                <div class="transaction-status success">✓</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Section -->
+    <section id="platform" class="platform">
+        <div class="container">
+            <div class="section-header">
+                <h2>Enterprise Payment Platform</h2>
+                <p>Comprehensive infrastructure for modern digital commerce</p>
+            </div>
+            <div class="platform-grid">
+                <div class="platform-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Lightning Fast</h3>
+                    <p>Sub-100ms transaction processing with instant confirmation on Base L2 network.</p>
+                    <div class="card-metric">
+                        <span class="metric-number">100ms</span>
+                        <span class="metric-text">avg. processing time</span>
+                    </div>
+                </div>
+                <div class="platform-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <h3>Bank-Grade Security</h3>
+                    <p>Military-grade encryption with multi-signature validation and zero-knowledge proofs.</p>
+                    <div class="card-metric">
+                        <span class="metric-number">256-bit</span>
+                        <span class="metric-text">encryption standard</span>
+                    </div>
+                </div>
+                <div class="platform-card">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Scalable Infrastructure</h3>
+                    <p>Handle millions of transactions per second with our distributed architecture.</p>
+                    <div class="card-metric">
+                        <span class="metric-number">1M+</span>
+                        <span class="metric-text">TPS capacity</span>
+                    </div>
+                </div>
+                <div class="platform-card">
+                    <div class="card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Developer First</h3>
+                    <p>RESTful APIs, comprehensive SDKs, and detailed documentation for rapid integration.</p>
+                    <div class="card-metric">
+                        <span class="metric-number">5min</span>
+                        <span class="metric-text">integration time</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Industry Solutions</h2>
+                <p>Tailored payment solutions for every business vertical</p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-header">
+                        <div class="solution-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>Content Streaming</h3>
+                    </div>
+                    <p>Pay-per-view monetization for video content with instant access and unlimited replays.</p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check"></i> Instant content unlock</li>
+                        <li><i class="fas fa-check"></i> Usage-based pricing</li>
+                        <li><i class="fas fa-check"></i> DRM integration</li>
+                    </ul>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-header">
+                        <div class="solution-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3>Gaming & NFTs</h3>
+                    </div>
+                    <p>In-game purchases, NFT trading, and virtual asset monetization with micro-transactions.</p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check"></i> In-game payments</li>
+                        <li><i class="fas fa-check"></i> NFT marketplace</li>
+                        <li><i class="fas fa-check"></i> Cross-platform sync</li>
+                    </ul>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-header">
+                        <div class="solution-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Education & Training</h3>
+                    </div>
+                    <p>Course monetization, certification fees, and educational content access control.</p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check"></i> Course payments</li>
+                        <li><i class="fas fa-check"></i> Certification fees</li>
+                        <li><i class="fas fa-check"></i> Progress tracking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developers Section -->
+    <section id="developers" class="developers">
+        <div class="container">
+            <div class="developers-content">
+                <div class="developers-text">
+                    <h2>Built for Developers</h2>
+                    <p>Comprehensive APIs and tools to integrate X402 payments into your application in minutes.</p>
+                    <div class="developer-features">
+                        <div class="feature">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>RESTful APIs</h4>
+                                <p>Clean, intuitive endpoints with comprehensive documentation</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-cube"></i>
+                            <div>
+                                <h4>SDKs & Libraries</h4>
+                                <p>Native libraries for JavaScript, Python, Go, and more</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-bug"></i>
+                            <div>
+                                <h4>Testing Tools</h4>
+                                <p>Sandbox environment and comprehensive testing utilities</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="developer-actions">
+                        <a href="#" class="btn btn-primary">
+                            <i class="fas fa-book"></i>
+                            <span>View Documentation</span>
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub Repository</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="code-preview">
+                    <div class="code-header">
+                        <div class="code-tabs">
+                            <div class="tab active">JavaScript</div>
+                            <div class="tab">Python</div>
+                            <div class="tab">Go</div>
+                        </div>
+                        <div class="code-actions">
+                            <button class="copy-btn">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="code-content">
+                        <pre><code>// Initialize X402 Payment
+const x402 = new X402Client({
+  apiKey: 'your-api-key',
+  network: 'base'
+});
+
+// Create payment request
+const payment = await x402.createPayment({
+  amount: '0.10',
+  currency: 'USDC',
+  description: 'Premium Content Access'
+});
+
+// Process payment
+const result = await x402.processPayment(payment.id);
+
+console.log('Payment confirmed:', result.transactionHash);</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Transparent Pricing</h2>
+                <p>Pay only for what you use, with no hidden fees or setup costs</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">0.001</span>
+                            <span class="period">per transaction</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Up to 1,000 transactions/month</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Basic analytics</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Email support</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>REST API access</span>
+                        </div>
+                    </div>
+                    <a href="/authenticate" class="btn btn-primary btn-full">
+                        <span>Get Started</span>
+                    </a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">0.0005</span>
+                            <span class="period">per transaction</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Up to 100,000 transactions/month</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Advanced analytics</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Priority support</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Webhook notifications</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Custom integrations</span>
+                        </div>
+                    </div>
+                    <a href="/authenticate" class="btn btn-primary btn-full">
+                        <span>Start Free Trial</span>
+                    </a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">0.0001</span>
+                            <span class="period">per transaction</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Unlimited transactions</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Real-time analytics</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>24/7 dedicated support</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Custom SLA</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>On-premise deployment</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-secondary btn-full">
+                        <span>Contact Sales</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Payment Infrastructure?</h2>
+                <p>Join thousands of businesses already using X402 for secure, scalable micropayments.</p>
+                <div class="cta-actions">
+                    <a href="/authenticate" class="btn btn-primary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        <span>Start Integration</span>
+                    </a>
+                    <a href="#" class="btn btn-secondary btn-large">
+                        <i class="fas fa-calendar"></i>
+                        <span>Schedule Demo</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="brand-logo">
+                            <div class="logo-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <span class="logo-text">X402</span>
+                        </div>
+                        <p>Enterprise-grade micropayment infrastructure for the modern web.</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Platform</h4>
+                    <ul class="footer-links">
+                        <li><a href="#platform">Features</a></li>
+                        <li><a href="#solutions">Solutions</a></li>
+                        <li><a href="#developers">Developers</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://www.x402.org/" target="_blank">X402 Protocol</a></li>
+                        <li><a href="#" target="_blank">Documentation</a></li>
+                        <li><a href="#" target="_blank">API Reference</a></li>
+                        <li><a href="#" target="_blank">Status Page</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" target="_blank">About</a></li>
+                        <li><a href="#" target="_blank">Careers</a></li>
+                        <li><a href="#" target="_blank">Contact</a></li>
+                        <li><a href="#" target="_blank">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> X402 Enterprise Payment Gateway. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

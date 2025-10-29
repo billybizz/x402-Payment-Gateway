@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="favicon.ico">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- HTML Meta Tags -->
+    <title>Payment Processing | X402 Enterprise Gateway</title>
+    <meta name="description" content="Processing your secure USDC micropayment via X402 protocol on Base network.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://x402.billybizz.dev/">
+    <meta property="og:title" content="Payment Processing | X402 Enterprise Gateway">
+    <meta property="og:description" content="Processing your secure USDC micropayment via X402 protocol on Base network.">
+    <meta property="og:image" content="https://opengraph.b-cdn.net/production/images/afea1e83-0adf-4492-9692-599da59e6182.png?token=nH7qEiqQ28Fyw91we3XTwxZpqk3vbIeIl3hjVfsNpHQ&height=266&width=500&expires=33297677916">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://x402.billybizz.dev/">
+    <meta property="twitter:title" content="Payment Processing | X402 Enterprise Gateway">
+    <meta property="twitter:description" content="Processing your secure USDC micropayment via X402 protocol on Base network.">
+    <meta property="twitter:image" content="https://opengraph.b-cdn.net/production/images/afea1e83-0adf-4492-9692-599da59e6182.png?token=nH7qEiqQ28Fyw91we3XTwxZpqk3vbIeIl3hjVfsNpHQ&height=266&width=500&expires=33297677916">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="brand-logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <span class="logo-text">X402</span>
+                </div>
+            </div>
+            <div class="nav-menu">
+                <a href="/" class="nav-link">Home</a>
+                <a href="https://www.x402.org/" target="_blank" class="nav-link external">
+                    <span>Protocol</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Payment Processing Section -->
+    <section class="hero" style="min-height: 100vh; display: flex; align-items: center; padding-top: 80px;">
+        <div class="container">
+            <div class="payment-processing-container">
+                <div class="processing-header">
+                    <div class="processing-badge">
+                        <i class="fas fa-sync-alt fa-spin"></i>
+                        <span>Processing Payment</span>
+                    </div>
+                    <h1 class="processing-title">
+                        Securing Your <span class="highlight">Transaction</span>
+                    </h1>
+                    <p class="processing-description">
+                        Your $0.10 USDC payment is being processed on the Base network with enterprise-grade security.
+                    </p>
+                </div>
+
+                <!-- Payment Card -->
+                <div class="payment-card processing-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-shield-halved"></i>
+                        </div>
+                        <div class="card-info">
+                            <div class="card-title">Payment in Progress</div>
+                            <div class="card-subtitle">X402 Protocol</div>
+                        </div>
+                    </div>
+                    <div class="payment-amount">
+                        <span class="currency">USDC</span>
+                        <span class="amount">0.10</span>
+                    </div>
+                    <div class="payment-details">
+                        <div class="detail">
+                            <span class="label">Network:</span>
+                            <span class="value">Base L2</span>
+                        </div>
+                        <div class="detail">
+                            <span class="label">Status:</span>
+                            <span class="value processing">Processing...</span>
+                        </div>
+                        <div class="detail">
+                            <span class="label">Security:</span>
+                            <span class="value">256-bit SSL</span>
+                        </div>
+                    </div>
+                    <div class="progress-section">
+                        <div class="progress-bar">
+                            <div class="progress-fill processing"></div>
+                        </div>
+                        <div class="progress-text">Validating transaction...</div>
+                    </div>
+                </div>
+
+                <!-- Processing Steps -->
+                <div class="processing-steps">
+                    <div class="step-item completed">
+                        <div class="step-icon">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>Network Connection</h4>
+                            <p>Established secure connection to Base L2</p>
+                        </div>
+                    </div>
+                    <div class="step-item completed">
+                        <div class="step-icon">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>Payment Validation</h4>
+                            <p>Verifying USDC payment details</p>
+                        </div>
+                    </div>
+                    <div class="step-item processing">
+                        <div class="step-icon">
+                            <i class="fas fa-sync-alt fa-spin"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>Blockchain Confirmation</h4>
+                            <p>Awaiting network confirmation</p>
+                        </div>
+                    </div>
+                    <div class="step-item pending">
+                        <div class="step-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>Content Unlock</h4>
+                            <p>Preparing access to premium content</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Security Features -->
+                <div class="security-features">
+                    <div class="security-item">
+                        <i class="fas fa-lock"></i>
+                        <span>End-to-End Encryption</span>
+                    </div>
+                    <div class="security-item">
+                        <i class="fas fa-shield-check"></i>
+                        <span>Multi-Sig Validation</span>
+                    </div>
+                    <div class="security-item">
+                        <i class="fas fa-bolt"></i>
+                        <span>Base Network</span>
+                    </div>
+                    <div class="security-item">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>$0.10 USDC</span>
+                    </div>
+                </div>
+
+                <!-- Transaction Details -->
+                <div class="transaction-details">
+                    <h3>Transaction Information</h3>
+                    <div class="detail-grid">
+                        <div class="detail-item">
+                            <span class="label">Transaction ID:</span>
+                            <span class="value">0x7429...8a3f</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Gas Fee:</span>
+                            <span class="value">$0.001</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Estimated Time:</span>
+                            <span class="value">15-30 seconds</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Network Status:</span>
+                            <span class="value success">Operational</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Warning Message -->
+                <div class="warning-message">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Please do not close this window. You will be redirected automatically once the payment is confirmed.</p>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="processing-actions">
+                    <a href="/" class="btn btn-secondary">
+                        <i class="fas fa-times"></i>
+                        <span>Cancel Payment</span>
+                    </a>
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span>View on Explorer</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="brand-logo">
+                            <div class="logo-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <span class="logo-text">X402</span>
+                        </div>
+                        <p>Enterprise-grade micropayment infrastructure for the modern web.</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Platform</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/#platform">Platform</a></li>
+                        <li><a href="/#solutions">Solutions</a></li>
+                        <li><a href="/#developers">Developers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://www.x402.org/" target="_blank">X402 Protocol</a></li>
+                        <li><a href="#" target="_blank">Documentation</a></li>
+                        <li><a href="#" target="_blank">API Reference</a></li>
+                        <li><a href="#" target="_blank">Status Page</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" target="_blank">About</a></li>
+                        <li><a href="#" target="_blank">Careers</a></li>
+                        <li><a href="#" target="_blank">Contact</a></li>
+                        <li><a href="#" target="_blank">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> X402 Enterprise Payment Gateway. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <style>
+        .payment-processing-container {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .processing-header {
+            margin-bottom: var(--space-12);
+        }
+
+        .processing-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            background: rgba(14, 165, 233, 0.1);
+            color: var(--primary-400);
+            padding: var(--space-2) var(--space-4);
+            border-radius: var(--radius-full);
+            font-size: var(--font-size-sm);
+            font-weight: var(--font-weight-semibold);
+            margin-bottom: var(--space-6);
+            border: 1px solid rgba(14, 165, 233, 0.2);
+        }
+
+        .processing-title {
+            font-size: var(--font-size-4xl);
+            font-weight: var(--font-weight-black);
+            line-height: var(--line-height-tight);
+            margin-bottom: var(--space-4);
+            color: var(--text-primary);
+            letter-spacing: -0.025em;
+        }
+
+        .processing-description {
+            font-size: var(--font-size-lg);
+            color: var(--text-secondary);
+            line-height: var(--line-height-relaxed);
+        }
+
+        .processing-card {
+            margin-bottom: var(--space-8);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+
+        .payment-details {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-3);
+            margin-bottom: var(--space-6);
+        }
+
+        .detail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--space-2) 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .detail:last-child {
+            border-bottom: none;
+        }
+
+        .label {
+            font-size: var(--font-size-sm);
+            color: var(--text-tertiary);
+            font-weight: var(--font-weight-medium);
+        }
+
+        .value {
+            font-size: var(--font-size-sm);
+            font-weight: var(--font-weight-semibold);
+            color: var(--text-primary);
+        }
+
+        .value.processing {
+            color: var(--warning);
+        }
+
+        .value.success {
+            color: var(--success);
+        }
+
+        .progress-section {
+            margin-top: var(--space-6);
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: var(--bg-tertiary);
+            border-radius: var(--radius-full);
+            overflow: hidden;
+            margin-bottom: var(--space-3);
+        }
+
+        .progress-fill {
+            width: 100%;
+            height: 100%;
+            background: var(--gradient-primary);
+            border-radius: var(--radius-full);
+            animation: progress 2s ease-in-out infinite;
+        }
+
+        .progress-fill.processing {
+            width: 75%;
+            animation: progress 2s ease-in-out infinite;
+        }
+
+        @keyframes progress {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        .progress-text {
+            font-size: var(--font-size-sm);
+            color: var(--text-tertiary);
+            font-weight: var(--font-weight-medium);
+        }
+
+        .processing-steps {
+            margin-bottom: var(--space-8);
+        }
+
+        .step-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-4);
+            padding: var(--space-4);
+            margin-bottom: var(--space-4);
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-light);
+            transition: all var(--transition-normal);
+        }
+
+        .step-item.completed {
+            border-color: var(--success);
+            background: rgba(16, 185, 129, 0.05);
+        }
+
+        .step-item.processing {
+            border-color: var(--warning);
+            background: rgba(245, 158, 11, 0.05);
+        }
+
+        .step-item.pending {
+            border-color: var(--border-light);
+            background: var(--bg-card);
+            opacity: 0.6;
+        }
+
+        .step-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: var(--radius-full);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: var(--font-size-lg);
+        }
+
+        .step-item.completed .step-icon {
+            background: var(--success);
+            color: white;
+        }
+
+        .step-item.processing .step-icon {
+            background: var(--warning);
+            color: white;
+        }
+
+        .step-item.pending .step-icon {
+            background: var(--bg-tertiary);
+            color: var(--text-tertiary);
+        }
+
+        .step-content h4 {
+            font-size: var(--font-size-base);
+            font-weight: var(--font-weight-semibold);
+            margin-bottom: var(--space-1);
+            color: var(--text-primary);
+        }
+
+        .step-content p {
+            font-size: var(--font-size-sm);
+            color: var(--text-secondary);
+        }
+
+        .security-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--space-4);
+            margin-bottom: var(--space-8);
+        }
+
+        .security-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            padding: var(--space-4);
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-light);
+            font-size: var(--font-size-sm);
+            font-weight: var(--font-weight-medium);
+            color: var(--text-secondary);
+        }
+
+        .security-item i {
+            color: var(--primary-400);
+            font-size: var(--font-size-lg);
+        }
+
+        .transaction-details {
+            background: var(--bg-card);
+            padding: var(--space-6);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-light);
+            margin-bottom: var(--space-8);
+            text-align: left;
+        }
+
+        .transaction-details h3 {
+            font-size: var(--font-size-lg);
+            font-weight: var(--font-weight-semibold);
+            margin-bottom: var(--space-4);
+            color: var(--text-primary);
+        }
+
+        .detail-grid {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-3);
+        }
+
+        .detail-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--space-2) 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .detail-item:last-child {
+            border-bottom: none;
+        }
+
+        .warning-message {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            background: rgba(59, 130, 246, 0.1);
+            color: var(--info);
+            padding: var(--space-4);
+            border-radius: var(--radius-lg);
+            margin-bottom: var(--space-8);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+        }
+
+        .warning-message i {
+            font-size: var(--font-size-lg);
+        }
+
+        .warning-message p {
+            margin: 0;
+            font-size: var(--font-size-sm);
+        }
+
+        .processing-actions {
+            display: flex;
+            gap: var(--space-4);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 768px) {
+            .processing-title {
+                font-size: var(--font-size-3xl);
+            }
+
+            .processing-description {
+                font-size: var(--font-size-base);
+            }
+
+            .security-features {
+                grid-template-columns: 1fr;
+            }
+
+            .step-item {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .processing-actions {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</body>
+</html>
